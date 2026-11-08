@@ -1,0 +1,10 @@
+name = "MicroCert"
+version = "0.1.0"
+defaultTargets = ["microcert"]
+
+[[lean_lib]]
+name = "MicroCert"
+
+[[lean_exe]]
+name = "microcert"
+root = "Main"
